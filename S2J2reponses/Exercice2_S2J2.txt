@@ -1,0 +1,4 @@
+Exercice 2:
+19: O(n)
+21: O(n)
+Total: O(n)
