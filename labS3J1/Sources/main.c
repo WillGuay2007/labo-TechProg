@@ -239,28 +239,6 @@ void* allocate(size_t size) {
 	return &heap[old_top];
 }
 
-void insert(Node* currNode, void* newData)
-{
-}
-
-void insertHead(Node* head, void* newData)
-{
-}
-
-Node* removeByData(Node* head, void* rmData)
-{
-	return nullptr;
-}
-
-Node* removeByName(Node* head, char* name)
-{
-	return nullptr;
-}
-
-void sort(Node* head)
-{
-}
-
 int main(int argc, char** argv) {
 	heap = (uint8_t*)malloc(HEAP_SIZE);
 	assert(heap != NULL);

@@ -1,14 +1,15 @@
 #include <assert.h>
 #include <stdint.h>
+#include <string.h>
 
 void* allocate(size_t size);
 
+typedef struct Node Node;
 
-
-typedef struct Node{
+struct Node{
 	void* data;
 	Node* next;
-} Node;
+};
 
 typedef struct person_t {
 	char name[256];
